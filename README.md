@@ -49,10 +49,21 @@ npm run dev
 
 Open the URL on your **phone** over **HTTPS** (or localhost) so `DeviceMotion` can work. Desktop browsers often have no useful motion sensors.
 
+## Android (Capacitor)
+
+See **[ANDROID.md](ANDROID.md)** for SDK setup, `assembleDebug` / `assembleRelease`, package id, and FOSS notes.
+
+```bash
+npm ci && npm run build && npx cap sync android
+cd android && ./gradlew assembleDebug
+```
+
+Package id: `com.tawattthot.panicguardian` · Capacitor `6.2.0`
+
 ## Stack / roadmap
 
-- **Now:** Vite + vanilla JS (same free lane as Punch Speed Meter)
-- **Next:** Capacitor Android packaging, optional watch/wearable surface, clearer “I’m OK” check-in after a trigger
+- **Now:** Vite + vanilla JS + Capacitor Android (same free lane as Punch Speed Meter)
+- **Next:** optional watch/wearable surface, clearer “I’m OK” check-in after a trigger
 - **Not planned:** Silent mystery 911 from guessed threats
 
 ## Related

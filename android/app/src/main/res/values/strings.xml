@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Panic Guardian</string>
+    <string name="title_activity_main">Panic Guardian</string>
+    <string name="package_name">com.tawattthot.panicguardian</string>
+    <string name="custom_url_scheme">com.tawattthot.panicguardian</string>
+</resources>
