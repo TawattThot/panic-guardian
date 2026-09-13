@@ -1,4 +1,4 @@
-package com.getcapacitor.myapp;
+package com.tawattthot.panicguardian;
 
 import static org.junit.Assert.*;
 
